@@ -5,13 +5,13 @@ So, linear things are predictable, while non-linear things can be more tricky to
 
 That was for breaking the ice. Now, suppose we have a function that takes a number _x_, multiplies it by 5: $f(x)=5x$ Now consider the following cases:
 ```math
-x=3 => f(3) = 15 (eq.1)
+1: x=3 => f(3) = 15 
 ```
 ```math
-x=3+1 => f(3+1) = 5(3+1) = 5*3 + 5*1 = f(3) + f(1) (eq.2)
+2: x=3+1 => f(3+1) = 5(3+1) = 5*3 + 5*1 = f(3) + f(1)
 ```
 ```math
-x = 2 * 3 => f(2*3) = 5*2*3 = 2*5*3 = 2*f(3) (eq.3)
+3: x = 2 * 3 => f(2*3) = 5*2*3 = 2*5*3 = 2*f(3)
 ```
 
 The above cases, show that the function is linear. More generally, a linear function must satisfy two properties, for _every input_:
