@@ -1,4 +1,4 @@
-# Fundamentals of Linear Systems 🏛️
+# Fundamentals of Linear Systems
 
 Mathematicians are historically weak on their marketing departments. How can you coin a more boring term than a _linear system_? It's actually a game-changer, however. These systems, which simply have a linear relationship between inputs and outputs, are the bedrock of modern engineering.
 
