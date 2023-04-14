@@ -28,7 +28,10 @@ The guide is going to cover the basic concepts of DSP, including Fourier transfo
 
 This repository will be regularly updated with new chapters and materials, making it a go-to resource for anyone interested in mastering DSP, albeit over time! 
 
-To access each chapter, simply navigate to the respective folder.
+To access each module, simply navigate to the respective folder.
+| **Module** | **Description** |
+|:---:|---|
+|[Fundamentals of Linear Systems](Fundamentals_of_Linear_Systems/readme.md) | Discussing linearity, time-invariance, convolution, impulse-response and LTI Systems |
 
 ## License
 
