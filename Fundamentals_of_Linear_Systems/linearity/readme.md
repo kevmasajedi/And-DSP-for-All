@@ -1,4 +1,4 @@
-# Linearity
+# Linearity 📈
 Linearity is a desirable property. It makes things more predictable. If you need one egg to bake a cake, you'll need four eggs to bake four. That's linear. But suppose you're not in the mood for cakes and want to just have some hard-boiled eggs! If you need 15 minutes for one, you'll still need just 15 minutes (or something around that) for ten. That's non-linear.
 
 So, linear things are predictable, while non-linear things can be more tricky to predict. It can be said that _linearity makes things predictable_. 

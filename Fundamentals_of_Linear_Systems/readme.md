@@ -1,4 +1,4 @@
-# Fundamentals of Linear Systems
+# Fundamentals of Linear Systems 🪨
 
 Mathematicians are historically weak on their marketing departments. How can you coin a more boring term than a _linear system_? It's actually a game-changer, however. These systems, which simply have a linear relationship between inputs and outputs, are the bedrock of modern engineering.
 
@@ -10,7 +10,7 @@ Understanding _LTI Systems_ is a milestone in learning about DSP. As the name su
 But being LTI, is only half of the story. The other half is how to actually predict the behavior of an LTI system? Well, for that should know about __convolution__ and __impulse response__. For now, consider _convolution_ to be just a mathematical operation, like multiplication, division, etc... and consider _impulse response_ as something like revving an engine up, to test its performance. Suppose you could know everything about an engine's response, just by revving it up! That's what LTI systems are about: _The response of the system to any input can be found using convolution by the system's impulse response_.
 
 Below, are the modules that provide deeper insights on the terms mentioned above:
-* [Linearity](linearity/readme.md)
+* [Linearity](linearity/readme.md) 📈
 * [Time Invariance](time_invariance/readme.md)
 * [Impulse Response](impulse_response/readme.md)
 * [Convolution](convolution/readme.md)
