@@ -11,7 +11,7 @@ But being LTI, is only half of the story. The other half is how to actually pred
 
 Below, are the modules that provide deeper insights on the terms mentioned above:
 * [Linearity](linearity/readme.md) 📈
-* [Time Invariance](time_invariance/readme.md)
+* [Time Invariance](time_invariance/readme.md) 🦥
 * [Impulse Response](impulse_response/readme.md)
 * [Convolution](convolution/readme.md)
 

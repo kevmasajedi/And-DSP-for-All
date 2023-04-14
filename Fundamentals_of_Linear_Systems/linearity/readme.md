@@ -18,4 +18,5 @@ The above cases, show that the function is linear. More generally, a linear func
 1. Additivity: $f(x + y) = f(x) + f(y)$
 2. Homogeneity: $f(ax) = af(x)$
 
-And voila! That's the formal definition of linearity.
+Voila! That's the formal definition of linearity. 
+And that's a fine line to walk on!
