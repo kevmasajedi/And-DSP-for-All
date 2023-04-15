@@ -13,7 +13,7 @@ Below, are the modules that provide deeper insights on the terms mentioned above
 * [Linearity](linearity/readme.md) 📈
 * [Time Invariance](time_invariance/readme.md) 🦥
 * [Impulse Response](impulse_response/readme.md) 🔨
-* [Convolution](convolution/readme.md)
+* [Convolution](convolution/readme.md)✳️
 
 ## Footnotes 📝
 __Not everything is linear:__ Despite their widespread use and importance, linear systems have inherent limitations. They are only valid for systems that exhibit a linear relationship between inputs and outputs, which is often not the case for many real-world systems. Nonlinear systems, characterized by complex and unpredictable behavior, pose significant challenges for scientists and engineers. For an introduction, you can read the book _Chaos: Making a New Science_ by James Gleick.
