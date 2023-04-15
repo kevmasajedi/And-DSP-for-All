@@ -17,4 +17,4 @@ So, in other words: When you convolve two functions, you reflect one of the func
 And that should give you an intuitive, practical grasp of the concept of convolution.
 
 ## Footnotes 📝
-When a function is symmetric about the y-axis (like the red square in above example), it is called an __even function__. In case of even functions, $f(x)$ is equal to $f(-x)$. So it doesn't matter if you reflect them.
+When a function is symmetric about the y-axis (like the red square in above example), it is called an __even function__. In case of even functions, $f(x)$ is equal to $f(-x)$. So it doesn't matter if you reflect them. 

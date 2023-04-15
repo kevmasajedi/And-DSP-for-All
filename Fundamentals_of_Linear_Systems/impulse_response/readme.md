@@ -7,4 +7,4 @@ Of course, it is physically impossible to produce such an ideal pulse in reality
 
 That's extremely useful. Because you can use __convolution__ of _any input_ with the system's impulse response to directly predict its output. 
 
-It is one of those rare cases when acting on impulse may lead to good decisions!
+It is one of those rare cases when acting on impulse may lead to good decisions! 

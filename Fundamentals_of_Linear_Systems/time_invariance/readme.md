@@ -10,4 +10,4 @@ Now, the question is: _Is your "radio" time invariant?_ To answer that, suppose 
 We're now ready for a formal definition: A system is _time-invariant_  if a time delay on the input $x(t+\delta)$ directly results in a time-delay of the output $y(t+\delta)$. In a time-invariant system, the relationship between the input function $x(t)$ and the output function $y(t)$ is constant with respect to time $t$. 
 
 And that's the way with _time invariance_. 
-Clock itself, never stops ticking.
+Clock itself, never stops ticking. 

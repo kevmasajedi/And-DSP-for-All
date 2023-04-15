@@ -19,4 +19,4 @@ The above cases, show that the function is linear. More generally, a linear func
 2. Homogeneity: $f(ax) = af(x)$
 
 Voila! That's the formal definition of linearity. 
-And that's a fine line to walk on!
+And that's a fine line to walk on! 
