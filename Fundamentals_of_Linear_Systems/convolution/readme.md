@@ -6,4 +6,4 @@ Essentially, when you convolve two functions, you:
 2. You slide one function over the other, and multiply them point-by-point.
 
 To have an intuitive grasp, take a look at this gif:
-![](https://github.com/kevmasajedi/And-DSP-for-All/tree/main/Fundamentals_of_Linear_Systems/convolution/c1.gif)
+![](https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/convolution/c1.gif?raw=true)
