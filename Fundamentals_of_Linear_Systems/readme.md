@@ -18,7 +18,7 @@ Below, are the modules that provide deeper insights on the terms mentioned above
 ## An Intuitive Example
 Now that you have worked your way through the above definitions, It's the time for an intuitive example to show how these properties actually fit together. Suppose we have a close to ideal _impulse_ like this:
 
-![](https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/d1.jpg?raw=true)
+<img src="https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/d1.jpg?raw=true" width="800px" /> 
 
 And we have a system - in this case, a fictional _filter_ - which gives us this _impulse response_. This is our $f(\tau)$:
 
