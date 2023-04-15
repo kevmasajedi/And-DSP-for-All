@@ -15,5 +15,23 @@ Below, are the modules that provide deeper insights on the terms mentioned above
 * [Impulse Response](impulse_response/readme.md) 🔨
 * [Convolution](convolution/readme.md)✳️
 
+## An Intuitive Example
+Now that you have worked your way through the above definitions, It's the time for an intuitive example to show how these properties actually fit together. Suppose we have a close to ideal _impulse_ like this:
+![](https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/d1.jpg?raw=true | width=300)
+
+And we have a system - in this case, a fictional _filter_ - which gives us this _impulse response_. This is our $f(\tau)$:
+![](https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/d2.jpg?raw=true | width=300)
+
+We're interested to know, how this filter, would change an input of _1 hertz sine-wave_, which is our $g(\tau)$:
+![](https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/d3.jpg?raw=true | width=300)
+
+As we've learned, to convolve $f$ and $g$, we need to reflect and offset one of the functions. Here we've $g(t-\tau)$ along with $f(\tau)$:
+![](https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/d4.jpg?raw=true | width=300)
+
+At last, we're ready to slide these functions over each other and calculate the __integral of the product of the two functions__. Which is plotted in black, and is the convolution of f and g: $(f*g)(t)$
+
+![](https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/d5.gif?raw=true | width=300)
+
+
 ## Footnotes 📝
 __Not everything is linear:__ Despite their widespread use and importance, linear systems have inherent limitations. They are only valid for systems that exhibit a linear relationship between inputs and outputs, which is often not the case for many real-world systems. Nonlinear systems, characterized by complex and unpredictable behavior, pose significant challenges for scientists and engineers. For an introduction, you can read the book _Chaos: Making a New Science_ by James Gleick.
