@@ -10,7 +10,7 @@ To have an intuitive grasp, take a look at this gif.
 
 ![](https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/convolution/c1.gif?raw=true)
 
-In the above example, the __blue__ function $f(\tau)$ is convoluted with __red__ function $g(\tau)$. In order to do that, $g(\tau)$ is __reflected $g(-\tau)$__ and __offseted $g(t-\tau)$__ to slide over $f(\tau)$. The __area under product of the two f(\tau)g(t-\tau)__ is calculated at each point and plotted with __black__. That's the convolution of these two function, which is $(f*g)(t)$.
+In the above example, the __blue__ function $f(\tau)$ is convoluted with __red__ function $g(\tau)$. In order to do that, $g(\tau)$ is __reflected $g(-\tau)$__ and __offseted $g(t-\tau)$__ to slide over $f(\tau)$. The __area under product of the two $f(\tau)g(t-\tau)$__ is calculated at each point and plotted with __black__. That's the convolution of these two function, which is $(f*g)(t)$.
 
 So, in other words, you reflect one of the functions about the y-axis, and calculate the _integral_ of the _product of the two functions_. 
 
