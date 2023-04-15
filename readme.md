@@ -1,7 +1,7 @@
 # And DSP for All: An Open Guide to Digital Signal Processing
 
 ## Welcome! 🤗
-Welcome to the world of digital signal processing (DSP), where the possibilities are endless, but Ah! The technical language in this field is a labyrinth of jargon that makes even the seasoned hacker scratch their head. The _Nyquist-Shannon Theoreom, FIR, IIR, Cooley-Tukey  FFT, Hamming Window_. What do these even mean? 
+Welcome to the world of digital signal processing (DSP), where the possibilities are endless, but Ah! The technical language in this field is a labyrinth of jargon that makes even the most seasoned hackers scratch their head. The _Nyquist-Shannon Theoreom, FIR, IIR, Cooley-Tukey  FFT, Hamming Window_. What do these even mean? 
 
 Yet fear not! This guide is here to help you to navigate this maze of DSP jargon and emerge victorious on the other side. DSP has the power to change the game in many industries like music production, telecommunications, and medical instruments. But crossing the barrier of technical language and complex math can be daunting. That's why this guide is created - to make DSP accessible to all.
 

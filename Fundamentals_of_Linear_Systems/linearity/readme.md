@@ -3,7 +3,7 @@ Linearity is a desirable property. It makes things more predictable. If you need
 
 So, linear things are predictable, while non-linear things can be more tricky to predict. It can be said that _linearity makes things predictable_. 
 
-That was for breaking the ice. Now, suppose we have a function that takes a number _x_, multiplies it by 5: $f(x)=5x$ Now consider the following cases:
+That was for breaking the ice. Now, suppose we have a function that takes a number _x_ and just multiplies it by 5: $f(x)=5x$ Now consider the following cases:
 ```math
 1: x=3 => f(3) = 15 
 ```
