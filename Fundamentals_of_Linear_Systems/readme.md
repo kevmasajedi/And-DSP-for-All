@@ -36,6 +36,18 @@ At last, we're ready to slide these functions over each other and calculate the 
 
 <p align="center"><img src="https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/d5.gif?raw=true" width="500px" /> </p>
 
+## Causality and Stability
+
+A system is __causal__ if its output only depends on the past and present inputs and not on future inputs. You might ask, How can the output of the system, depend on the future? Well, in this context, we mean that the system should not try to predict or anticipate the future inputs. If the system in any way tries to anticipate the future, whether by using a random number, or tossing a coin or by taroot cards, it is not casual.
+
+More formally, you remember that the _impulse_ is corresponded with _dirac delta function_ which is 1 at $t=0$, and 0 everywhere else. So, It only makes sense that for a casual system, its impulse response $h(t)$ must be equal to zero for all $t<0$ 
+
+And what do we mean by __stability__? Obviously, you do not expect a stable system to be _triggered into chaos_ by just a reasonable, finite input. You expect a voice recorder, that when you speak a bit louder, it record your a bit louder, but not infinitely louder, like, catching fire. _That's unstable!_
+
+Formally, there's this term, _BIBO stability_. It is a guarantee that if input to the system is bounded (not infinite), the output of the system will also be bounded. Hence, Bounded-Input results in Bounded-Output (BIBO).
+
+The mathematical condition for a LTI-system to be BIBO stable, is that its _impulse response_ should be _absolutely summable_. Meaning that if you sum-up all the values of $h(t)$ for every $t$, your sum should appraoch a limit, not infinity. Or:
+$$ \sum_{t=0}^{\infty}\left|h(t) \right|<\infty $$
 
 ## Footnotes 📝
 __Not everything is linear:__ Despite their widespread use and importance, linear systems have inherent limitations. They are only valid for systems that exhibit a linear relationship between inputs and outputs, which is often not the case for many real-world systems. Nonlinear systems, characterized by complex and unpredictable behavior, pose significant challenges for scientists and engineers. For an introduction, you can read the book _Chaos: Making a New Science_ by James Gleick.
