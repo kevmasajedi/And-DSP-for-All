@@ -47,6 +47,7 @@ And what do we mean by __stability__? Obviously, you do not expect a stable syst
 Formally, there's this term, _BIBO stability_. It is a guarantee that if input to the system is bounded (not infinite), the output of the system will also be bounded. Hence, Bounded-Input results in Bounded-Output (BIBO).
 
 The mathematical condition for a LTI-system to be BIBO stable, is that its _impulse response_ should be _absolutely summable_. Meaning that if you sum-up all the values of $h(t)$ for every $t$, your sum should appraoch a limit, not infinity. Or:
+
 $$ \sum_{t=0}^{\infty}\left|h(t) \right|<\infty $$
 
 ## Footnotes 📝
