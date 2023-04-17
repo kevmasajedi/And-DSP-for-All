@@ -89,5 +89,11 @@ Earlier, we've made it clear that from all the complexity zoo of various systems
 
 As most of the real-world systems can be modeled as LTIs, most of the real-world _signals_ can be modeled as _sinosoids_. And that's great news too. Sinusoid inputs can be represented as $x(n) = e^{jwn}$ and you know what's that? An __eigenfunction__!
 
+Eigenfuncion, despite their name, are friendly functions that don't change faces under linear operations. As LTI systems are linear, if you feed them sinusoids, you'll get sinusoids, just with a different scale. Eigenfunction in, eigenfunction out! If $f$ be an eigenfunction, then feeding it to a LTI system $LTI[f]$ will result in:
+
+$$ LTI[f] = \lambda f $$
+
+So, $f$ will come out in one peace, just scaled by a constant value $\lambda$. This value is called __eigenvalue__. 
+
 ## Footnotes 📝
 __Not everything is linear:__ Despite their widespread use and importance, linear systems have inherent limitations. They are only valid for systems that exhibit a linear relationship between inputs and outputs, which is often not the case for many real-world systems. Nonlinear systems, characterized by complex and unpredictable behavior, pose significant challenges for scientists and engineers. For an introduction, you can read the book _Chaos: Making a New Science_ by James Gleick.
