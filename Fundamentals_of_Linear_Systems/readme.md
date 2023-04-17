@@ -53,9 +53,9 @@ The mathematical condition for a LTI-system to be BIBO stable, is that its _impu
 $$ \sum_{t=0}^{\infty}\left|h(t) \right|<\infty $$
 
 ## Differential Equations
-Differential equations, are a class of equations that associate _the rate of change_ of some quantity, to the quantity itself. Unfortunately, we can not introduce, or discuss them here. You have to pick a book for that. _Differential Equations and Linear Algebra_ by Gilbert Strang is a good one. But if you don't like to delve into mathematics, that's ok too. Because you don't have to particularly know about differential equations to continue learning about DSP. You just have to know how these two subjects are related.
+Differential equations, are a class of equations that associate _the rate of change_ of some quantity, to the quantity itself. Unfortunately, we can not introduce, or discuss them here. You have to pick a book for that. _Differential Equations and Linear Algebra_ by Gilbert Strang is a good one. But if you don't like to delve into mathematics, that's ok too. Because you don't have to know a great deal about differential equations to continue learning about DSP. You just have to know how these two subjects are related.
 
-In DSP, we deal with _discrete linear differential equations_. Every LTI system, can be represented by such equation. That's extremely useful. Take a look at this equation:
+In DSP, we deal with _discrete linear differential equations_. Every LTI system, can be represented by such equation. And that's extremely useful. Take a look at this equation:
 
 $$ y(n) = -a_1 y(n-1) + b_0 x(n) + b_1 x(n-1) $$
 
