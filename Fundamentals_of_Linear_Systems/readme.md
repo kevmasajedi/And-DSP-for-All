@@ -15,7 +15,7 @@ Below, are the modules that provide deeper insights on the terms mentioned above
 * [Impulse Response](impulse_response/readme.md) 🔨
 * [Convolution](convolution/readme.md) ✳️
 
-## An Intuitive Example
+## An Intuitive Example 🪄
 Now that you have worked your way through the above definitions, It's the time for an intuitive example to show how these properties actually fit together. Suppose we have a close to ideal _impulse_ like this:
 
 <p align="center"><img src="https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/d1.jpg?raw=true" width="500px" /></p>
@@ -36,7 +36,7 @@ At last, we're ready to slide these functions over each other and calculate the 
 
 <p align="center"><img src="https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/d5.gif?raw=true" width="500px" /> </p>
 
-## Causality and Stability
+## Causality and Stability ⚖️
 
 A system is __causal__ if its output only depends on the past and present inputs and not on future inputs. You might ask, How can the output of the system, depend on the future? Well, in this context, we mean that the system should not try to predict or anticipate the future inputs. If the system in any way tries to anticipate the future, whether by using a random number, or tossing a coin or by taroot cards, it is not casual.
 
@@ -52,7 +52,7 @@ The mathematical condition for a LTI-system to be BIBO stable, is that its _impu
 
 $$ \sum_{t=0}^{\infty}\left|h(t) \right|<\infty $$
 
-## Differential Equations
+## Differential Equations 🏫
 Differential equations, are a class of equations that associate _the rate of change_ of some quantity, to the quantity itself. Don't panic! If you don't like to delve into mathematics, that's ok too. Because you don't have to know a great deal about differential equations to continue learning about DSP. You just have to know how these two subjects are related.
 
 In DSP, we deal with _discrete linear differential equations_. Every LTI system, can be represented by such equation. And that's extremely useful. Take a look at this equation:
@@ -73,7 +73,7 @@ You just need _one_ and _two sample delays_ along with some coefficients to make
 
 What about higher-order systems? well, they're just a series or parallel combination of first and second-order systems. I reckon by now you should see some _real_ potential in this topic.
 
-## Calculating Impulse Response
+## Calculating Impulse Response 🧮
 Again, you might find some intimidating statements below. Unfortunately, we can not introduce, or discuss them here. You have to pick a book for that. Differential Equations and Linear Algebra by Gilbert Strang is a good one. But __remember:__ you can just use _Wolfram Alpha_ and many other free software to solve these equations.
 
 When you have your LTI system represented as an _n-th order discrete linear differential equation_, You don't have to actually feed input to it, to _measure_ its impulse response. You can mathematically, calculate the impulse response $h(n)$. You just have to:
@@ -84,7 +84,7 @@ When you have your LTI system represented as an _n-th order discrete linear diff
 __The impulse response is the sum of the homogeneous and particular solutions of the system's differential equation with the input being an impulse function.__ 
 
 
-## Sinusoids and Eigenfunctions
+## Sinusoids and Eigenfunctions 🎶
 Earlier, we've made it clear that from all the complexity zoo of various types of systems, we're only going to deal with LTI systems. It was quite a deal, as we learned not only we can use LTI systems to model real-world phenomena, but they also have very desirable properties that makes such modeling easy and efficient. Now, we're going to further that deal, with another constructive limitation!
 
 As most of the real-world systems can be modeled as LTIs, most of the real-world _signals_ can be modeled as _sinosoids_. And that's great news too. Sinusoid inputs can be represented as $x(n) = e^{jwn}$ and you know what's that? An __eigenfunction__!
