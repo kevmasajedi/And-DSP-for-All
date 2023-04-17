@@ -52,7 +52,7 @@ The mathematical condition for a LTI-system to be BIBO stable, is that its _impu
 
 $$ \sum_{t=0}^{\infty}\left|h(t) \right|<\infty $$
 
-## Differential Equations 🏫
+## Differential Equations ∫
 Differential equations, are a class of equations that associate _the rate of change_ of some quantity, to the quantity itself. Don't panic! If you don't like to delve into mathematics, that's ok too. Because you don't have to know a great deal about differential equations to continue learning about DSP. You just have to know how these two subjects are related.
 
 In DSP, we deal with _discrete linear differential equations_. Every LTI system, can be represented by such equation. And that's extremely useful. Take a look at this equation:
@@ -73,7 +73,7 @@ You just need _one_ and _two sample delays_ along with some coefficients to make
 
 What about higher-order systems? well, they're just a series or parallel combination of first and second-order systems. I reckon by now you should see some _real_ potential in this topic.
 
-## Calculating Impulse Response 🧮
+## Calculating Impulse Response ±
 Again, you might find some intimidating statements below. Unfortunately, we can not introduce, or discuss them here. You have to pick a book for that. Differential Equations and Linear Algebra by Gilbert Strang is a good one. But __remember:__ you can just use _Wolfram Alpha_ and many other free software to solve these equations.
 
 When you have your LTI system represented as an _n-th order discrete linear differential equation_, You don't have to actually feed input to it, to _measure_ its impulse response. You can mathematically, calculate the impulse response $h(n)$. You just have to:
@@ -84,7 +84,7 @@ When you have your LTI system represented as an _n-th order discrete linear diff
 __The impulse response is the sum of the homogeneous and particular solutions of the system's differential equation with the input being an impulse function.__ 
 
 
-## Sinusoids and Eigenfunctions 🎶
+## Sinusoids and Eigenfunctions λ
 Earlier, we've made it clear that from all the complexity zoo of various types of systems, we're only going to deal with LTI systems. It was quite a deal, as we learned not only we can use LTI systems to model real-world phenomena, but they also have very desirable properties that makes such modeling easy and efficient. Now, we're going to further that deal, with another constructive limitation!
 
 As most of the real-world systems can be modeled as LTIs, most of the real-world _signals_ can be modeled as _sinosoids_. And that's great news too. Sinusoid inputs can be represented as $x(n) = e^{jwn}$ and you know what's that? An __eigenfunction__!
