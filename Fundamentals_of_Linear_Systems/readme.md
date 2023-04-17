@@ -52,5 +52,26 @@ The mathematical condition for a LTI-system to be BIBO stable, is that its _impu
 
 $$ \sum_{t=0}^{\infty}\left|h(t) \right|<\infty $$
 
+## Differential Equations
+Differential equations, are a class of equations that associate _the rate of change_ of some quantity, to the quantity itself. Unfortunately, we can not introduce, or discuss them here. You have to pick a book for that. _Differential Equations and Linear Algebra_ by Gilbert Strang is a good one. But if you don't like to delve into mathematics, that's ok too. Because you don't have to particularly know about differential equations to continue learning about DSP. You just have to know how these two subjects are related.
+
+In DSP, we deal with _discrete linear differential equations_. Every LTI system, can be represented by such equation. That's extremely useful. Take a look at this equation:
+
+$$ y(n) = -a_1 y(n-1) + b_0 x(n) + b_1 x(n-1) $$
+
+This is the __most general__ form of _first order_ discrete differential equation. You remember that $x(n)$ is the input sequence and $y(n)$ is the output. So, $x(n-1)$ and $y(n-1)$ are just input and output sequences with _one sample delay_. This is great! It means, you just need to apply delays along with some coefficients to the inputs and outputs, to make a first order LTI system:
+
+<p align="center"><img src="https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/de1.jpg?raw=true" width="500px" /> </p>
+
+Likewise, for a _second order_ differential equation:
+
+$$ y(n) = -a_1 y(n-1) - a_2 y(n-2) + b_0 x(n) + b_1 x(n-1) + b_2 x(n-2) $$
+
+You just need _one_ and _two sample delays_ along with some coefficients to make a second order LTI system.
+
+<p align="center"><img src="https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/de2.jpg?raw=true" width="500px" /> </p>
+
+What about higher-order systems? well, they're just a series or parallel combination of first and second-order systems. I think by now, you should see some _real_ potential in this topic.
+
 ## Footnotes 📝
 __Not everything is linear:__ Despite their widespread use and importance, linear systems have inherent limitations. They are only valid for systems that exhibit a linear relationship between inputs and outputs, which is often not the case for many real-world systems. Nonlinear systems, characterized by complex and unpredictable behavior, pose significant challenges for scientists and engineers. For an introduction, you can read the book _Chaos: Making a New Science_ by James Gleick.
