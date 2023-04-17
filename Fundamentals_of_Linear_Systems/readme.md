@@ -97,7 +97,7 @@ So, $f$ will come out in one peace, just scaled by a constant value $\lambda$. T
 
 So, in a formal way, _eigenfunction_ is a special function that under linear operations, will result in same function scaled by a constant factor, called _eigenvalue_. 
 
-## Frequency Response
+## Frequency Response ∿
 The __complex exponential function__ $x(n)=e^{jwn}$ is an eigenfunction. So, when a complex exponential input feeds an LTI system with impulse response $h(n)$, the output $y(n)$ is alwo a complex exponential of the same frequency. It is scaled by $H(\omega)$, which indicates _the scale factor of input signal depends only on its frequency_. Thus:
 
 $$ y(n)= H(\omega) * e^{jwn} $$
