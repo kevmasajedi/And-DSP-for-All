@@ -84,16 +84,18 @@ When you have your LTI system represented as an _n-th order discrete linear diff
 __The impulse response is the sum of the homogeneous and particular solutions of the system's differential equation with the input being an impulse function.__ 
 
 
-## Frequency Response
-Earlier, we've made it clear that from all the complexity zoo of various systems, we're only going to deal with LTI systems. It was quite a deal, as we learned not only we can use LTI systems to model real-world phenomenon, but they also have very desirable properties that makes such modeling easy and efficient. Now, we're going to further that deal, with another constructive limitation!
+## Sinusoids and Eigenfunctions
+Earlier, we've made it clear that from all the complexity zoo of various types of systems, we're only going to deal with LTI systems. It was quite a deal, as we learned not only we can use LTI systems to model real-world phenomena, but they also have very desirable properties that makes such modeling easy and efficient. Now, we're going to further that deal, with another constructive limitation!
 
 As most of the real-world systems can be modeled as LTIs, most of the real-world _signals_ can be modeled as _sinosoids_. And that's great news too. Sinusoid inputs can be represented as $x(n) = e^{jwn}$ and you know what's that? An __eigenfunction__!
 
-Eigenfuncion, despite their name, are friendly functions that don't change faces under linear operations. As LTI systems are linear, if you feed them sinusoids, you'll get sinusoids, just with a different scale. Eigenfunction in, eigenfunction out! If $f$ be an eigenfunction, then feeding it to a LTI system $LTI[f]$ will result in:
+Eigenfuncions, despite their name, are friendly functions that don't change faces under linear operations. As LTI systems are linear, if you feed them sinusoids, you'll get sinusoids, just with a different scale. Eigenfunction in, eigenfunction out! If $f$ be an eigenfunction, then feeding it to a LTI system $LTI[f]$ will result in:
 
 $$ LTI[f] = \lambda f $$
 
 So, $f$ will come out in one peace, just scaled by a constant value $\lambda$. This value is called __eigenvalue__. 
+
+So, in a formal way, _eigenfunction_ is a special function that under linear operations, will result in same function scaled by a constant factor, called _eigenvalue_. 
 
 ## Footnotes 📝
 __Not everything is linear:__ Despite their widespread use and importance, linear systems have inherent limitations. They are only valid for systems that exhibit a linear relationship between inputs and outputs, which is often not the case for many real-world systems. Nonlinear systems, characterized by complex and unpredictable behavior, pose significant challenges for scientists and engineers. For an introduction, you can read the book _Chaos: Making a New Science_ by James Gleick.
