@@ -102,7 +102,9 @@ The __complex exponential function__ $x(n)=e^{jwn}$ is an eigenfunction. So, whe
 
 $$ y(n)= H(\omega) * e^{jwn} $$
 
-$H(\omega)$ is the __frequency response__ of the LTI system. 
+$H(\omega)$ is the __frequency response__ of the LTI system. More accurately, we can show this by $H(e^{jw})$, which is defined as:
+
+$$ H(e^{jw}) =  \sum_{n=-\infty}^{\infty}h(n)e^{-jwn} $$
 
 ## Footnotes 📝
 __Not everything is linear:__ Despite their widespread use and importance, linear systems have inherent limitations. They are only valid for systems that exhibit a linear relationship between inputs and outputs, which is often not the case for many real-world systems. Nonlinear systems, characterized by complex and unpredictable behavior, pose significant challenges for scientists and engineers. For an introduction, you can read the book _Chaos: Making a New Science_ by James Gleick.
