@@ -123,6 +123,15 @@ Thus, the _impulse response_ $h(n)$ for values of $n \geq 0$ is:
 
 $$h(n)= K^n$$
 
+From the _frequency response_ definition, we shall have:
+
+$$ H(e^{jw}) =  \sum_{n=0}^{\infty}K^n e^{-jwn} $$
+
+This is an infinite geometric series with the first term a = 1 (when n = 0, K^n = 1) and common ratio r = K * e^(-jω). To find the sum of this series, we can use the geometric sum formula:
+
+$$ S = \frac{a(1-r^n)}{(1-r)}$$
+
+
 
 ## Footnotes 📝
 __Not everything is linear:__ Despite their widespread use and importance, linear systems have inherent limitations. They are only valid for systems that exhibit a linear relationship between inputs and outputs, which is often not the case for many real-world systems. Nonlinear systems, characterized by complex and unpredictable behavior, pose significant challenges for scientists and engineers. For an introduction, you can read the book _Chaos: Making a New Science_ by James Gleick.
