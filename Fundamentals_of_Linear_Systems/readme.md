@@ -133,7 +133,9 @@ $$ S = \frac{a(1-r^n)}{(1-r)}$$
 
 In this case, as the sum goes to infinity (N → ∞), we can simplify the formula:
 
-$$ S = \frac{a}{1-r} = \frac{1}{1-K*e^{-jw}} $$
+$$ H(e^{jw}) = \frac{a}{1-r} = \frac{1}{1-K*e^{-jw}} $$
+
+Now that we have the frequency response, we can plot its _magnitude_ $|H(e^{jw})|$ and _phase_ $∠H(e^{jw})$ to study it further.
 
 ## Footnotes 📝
 __Not everything is linear:__ Despite their widespread use and importance, linear systems have inherent limitations. They are only valid for systems that exhibit a linear relationship between inputs and outputs, which is often not the case for many real-world systems. Nonlinear systems, characterized by complex and unpredictable behavior, pose significant challenges for scientists and engineers. For an introduction, you can read the book _Chaos: Making a New Science_ by James Gleick.
