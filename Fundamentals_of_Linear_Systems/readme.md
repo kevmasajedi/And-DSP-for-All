@@ -119,6 +119,9 @@ To compute the impulse response, we just have to feed our system an _impulse_ δ
 * $n = 0 => y(n) = δ(0) + Ky(-1) = 1$
 * $n > 0 => y(n) = Ky(n-1) => y(n) = K^n$
 
+Thus, the _impulse response_ $h(n)$ is:
+$$ h(n)=\left\{\begin{matrix} K^n& n\geq0 \\ 0& n<0 \\ \end{matrix}\right. $$
+
 
 ## Footnotes 📝
 __Not everything is linear:__ Despite their widespread use and importance, linear systems have inherent limitations. They are only valid for systems that exhibit a linear relationship between inputs and outputs, which is often not the case for many real-world systems. Nonlinear systems, characterized by complex and unpredictable behavior, pose significant challenges for scientists and engineers. For an introduction, you can read the book _Chaos: Making a New Science_ by James Gleick.
