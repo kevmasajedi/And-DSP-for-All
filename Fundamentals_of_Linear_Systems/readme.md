@@ -137,5 +137,9 @@ $$ H(e^{jw}) = \frac{a}{1-r} = \frac{1}{1-K*e^{-jw}} $$
 
 Now that we have the frequency response, we can plot its _magnitude_ $|H(e^{jw})|$ and _phase_ $∠H(e^{jw})$ to study it further.
 
+$$ |H(e^{jw})| = \frac{1}{\sqrt{K^2 - 2Kcos(w) + 1}} $$
+$$ ∠H(e^{jw}) = arctan(\frac{-Ksin(w)}{1-Kcosw}) $$
+
+
 ## Footnotes 📝
 __Not everything is linear:__ Despite their widespread use and importance, linear systems have inherent limitations. They are only valid for systems that exhibit a linear relationship between inputs and outputs, which is often not the case for many real-world systems. Nonlinear systems, characterized by complex and unpredictable behavior, pose significant challenges for scientists and engineers. For an introduction, you can read the book _Chaos: Making a New Science_ by James Gleick.
