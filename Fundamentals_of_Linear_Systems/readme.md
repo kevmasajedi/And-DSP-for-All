@@ -119,9 +119,9 @@ To compute the impulse response, we just have to feed our system an _impulse_ δ
 * $n = 0 => y(n) = δ(0) + Ky(-1) = 1$
 * $n > 0 => y(n) = Ky(n-1) => y(n) = K^n$
 
-Thus, the _impulse response_ $h(n)$ is:
+Thus, the _impulse response_ $h(n)$ for values of $n \geq 0$ is:
 
-$$h(n)=\left\{\begin{matrix} K^n& n\geq0 \\ 0& n<0 \\ \end{matrix}\right.$$
+$$h(n)= K^n$$
 
 
 ## Footnotes 📝
