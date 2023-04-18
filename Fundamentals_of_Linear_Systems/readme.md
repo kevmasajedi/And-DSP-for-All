@@ -116,8 +116,8 @@ $$ y(n) = x(n) + K*y(n-1) $$
 To compute the impulse response, we just have to feed our system an _impulse_ δ(n)  which by definition is a function that is _1 at 0 and 0 everywhere else_. So:
 
 * $n<0 => y(n)=0$ (from the initial condition $y(-1) = 0$ and since $δ(n) = 0$ for n ≠ 0) 
-$$ n = 0 => y(n) = δ(0) + K * y(-1) = 1 $$
-$$ n > 0 => y(n) = Ky(n-1) => y(n) = K^n $$
+* $n = 0 => y(n) = δ(0) + K * y(-1) = 1$
+* $n > 0 => y(n) = Ky(n-1) => y(n) = K^n$
 
 
 ## Footnotes 📝
