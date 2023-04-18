@@ -112,5 +112,10 @@ So, just by having a representation of an LTI system, in the form of a different
 
 * [Example of Frequency Response of First Order Systems](frequency_response_first_order/readme.md) ✏️
 
+## Characteristics of Frequency Response
+Below, is the plot that shows the magnitude and phase of the frequency response for the system we examined in the previous example. The horizontal axis represents the angular frequency $\omega$, while the vertical axis shows the magnitude (red) of response in _decibels (dB)_ and the phase in radians:
+
+<p align="center"><img src="https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/fr1.jpg?raw=true" width="500px" /> </p>
+
 ## Footnotes 📝
 __Not everything is linear:__ Despite their widespread use and importance, linear systems have inherent limitations. They are only valid for systems that exhibit a linear relationship between inputs and outputs, which is often not the case for many real-world systems. Nonlinear systems, characterized by complex and unpredictable behavior, pose significant challenges for scientists and engineers. For an introduction, you can read the book _Chaos: Making a New Science_ by James Gleick.
