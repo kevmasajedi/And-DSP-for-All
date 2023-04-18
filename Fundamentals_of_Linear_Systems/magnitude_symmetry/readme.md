@@ -1,0 +1,6 @@
+# Symmetry of Magnitude of Frequency Response 🐇🕳
+When we analyze a system's response to different frequencies of input signals - its frequency response - we use complex functions to represent both the magnitude and the phase of the response. The magnitude tells us how much the system amplifies or attenuates different frequencies of input signals, and the phase tells us how the system shifts the input signals in time.
+
+When we shift the frequency axis of the complex function by π, we essentially apply complex conjugation to the function. Complex conjugation is a mathematical operation that flips the sign of the imaginary part of a complex number. For example, the complex conjugate of 3 + 4i is 3 - 4i. When we apply complex conjugation to the complex function that represents our system response, the magnitude of the function stays the same.
+
+The symmetry of the magnitude of the frequency response around π is a consequence of this invariance of the absolute value under complex conjugation. This means that if we reflect the magnitude plot about the vertical line at π, we get the same plot. In other words, the magnitude is symmetric with respect to π.
