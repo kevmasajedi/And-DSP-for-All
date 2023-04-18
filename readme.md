@@ -31,7 +31,7 @@ This repository will be regularly updated with new chapters and materials, makin
 To access each module, simply navigate to the respective folder.
 | **Module** | **Description** |
 |:---:|---|
-|[Fundamentals of Linear Systems](Fundamentals_of_Linear_Systems/readme.md) | Discussing Linearity, Time-Invariance, Convolution, Impulse-Response, LTI Systems, Causality, Stability |
+|[Fundamentals of Linear Systems](Fundamentals_of_Linear_Systems/readme.md) | Discussing Linearity, Time-Invariance, Convolution, Impulse-Response, LTI Systems, Causality, Stability, Frequency Response |
 
 ## License 🎓
 
