@@ -138,6 +138,7 @@ $$ H(e^{jw}) = \frac{a}{1-r} = \frac{1}{1-K*e^{-jw}} $$
 Now that we have the frequency response, we can plot its _magnitude_ $|H(e^{jw})|$ and _phase_ $∠H(e^{jw})$ to study it further.
 
 $$ |H(e^{jw})| = \frac{1}{\sqrt{K^2 - 2Kcos(w) + 1}} $$
+
 $$ ∠H(e^{jw}) = arctan(\frac{-Ksin(w)}{1-Kcosw}) $$
 
 
