@@ -30,3 +30,7 @@ Now that we have the frequency response, we can plot its _magnitude_ $|H(e^{jw})
 $$ |H(e^{jw})| = \frac{1}{\sqrt{K^2 - 2Kcos(w) + 1}} $$
 
 $$ ∠H(e^{jw}) = arctan(\frac{-Ksin(w)}{1-Kcosw}) $$
+
+Below, you can find the magnitude (red) and phase (blue) of the frequency response plotted for values of K starting from 0 to 1:
+
+<p align="center"><img src="https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/frequency_response_first_order/r1.gif?raw=true" width="500px" /> </p>
