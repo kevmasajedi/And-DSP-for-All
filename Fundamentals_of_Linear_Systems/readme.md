@@ -119,11 +119,11 @@ Below, is the plot that shows the magnitude and phase of the frequency response 
 
 As you can see in this plot, there are three important characteristics about the _frequency response:_
 
-* __Periodicity__: The frequency response of a system is periodic with a period of 2π. This means that if you shift the frequency axis by 2π, the response will be identical to the original response. [Why?🐇🕳](periodicity/readme.md)
+* __Periodicity__: The frequency response of a system is periodic with a period of 2π. This means that if you shift the frequency axis by 2π, the response will be identical to the original response. [Why periodic?🐇🕳](periodicity/readme.md)
 
-* __Symmetry of Magnitude__ related to π: The magnitude of the frequency response exhibits a symmetry around π. That is, if you reflect the magnitude plot about the vertical line at π, you get the same plot. 
+* __Symmetry of Magnitude__ related to π: The magnitude of the frequency response exhibits a symmetry around π. That is, if you reflect the magnitude plot about the vertical line at π, you get the same plot. [Why symmetric?🐇🕳](magnitude_symmetry/readme.md) 
 
-* __Anti-symmetry of Phase__ related to π: The phase of the frequency response exhibits an anti-symmetry around π. That is, if you reflect the phase plot about the vertical line at π, you get the negative of the original plot. 
+* __Anti-symmetry of Phase__ related to π: The phase of the frequency response exhibits an anti-symmetry around π. That is, if you reflect the phase plot about the vertical line at π, you get the negative of the original plot. [Why anti-symmetric?🐇🕳](phase_anti_symmetry/readme.md) 
 
 ## Footnotes 📝
 __Not everything is linear:__ Despite their widespread use and importance, linear systems have inherent limitations. They are only valid for systems that exhibit a linear relationship between inputs and outputs, which is often not the case for many real-world systems. Nonlinear systems, characterized by complex and unpredictable behavior, pose significant challenges for scientists and engineers. For an introduction, you can read the book _Chaos: Making a New Science_ by James Gleick.
