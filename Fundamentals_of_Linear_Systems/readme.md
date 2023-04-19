@@ -125,5 +125,17 @@ As you can see in this plot, there are three important characteristics about the
 
 * __Anti-symmetry of Phase__ related to π: The phase of the frequency response exhibits an anti-symmetry around π. That is, if you reflect the phase plot about the vertical line at π, you get the negative of the original plot. [Why anti-symmetric?🐇🕳](phase_anti_symmetry/readme.md) 
 
+## Unit of Frequency
+Above, we examined frequency response characteristics, such as 2π periodicity and π symmetry of magnitude. However, you might be wondering how these properties correspond to the unit of frequency that we're familiar with in the real world, which is _Hertz (Hz)_.
+
+In signal processing and communication systems, the unit of frequency is typically the same as the sampling frequency, which is the rate at which a continuous-time signal is sampled and converted into a discrete-time signal. For example, if the sampling frequency is 10 kHz, then it means that 10,000 samples are taken per second. 
+
+The 2π periodicity of the frequency response means that the response is periodic with a period of 2π radians per second, which corresponds to the sampling frequency in Hz. So, for our example, the periodicity of the signal is 10 kHz in the frequency domain. 
+
+The π symmetry of the magnitude of the frequency response and π anti-symmetry of phase, mean that the response is symmetric about the __Nyquist frequency__, which is defined simply as half of the sampling frequency in Hz, or 5kHz in the case of our example.
+
+If you decide to use _radians per second_ ($\omega$) as the unit of frequency domain, you'll need to multiply all values by 2π, as $\omega = 2 \pi f$. So, for our example, the frequency response would be periodic around 20,000π and symmetric in magnitude (and anti-symmetric in phase) around 10000π. 
+
+
 ## Footnotes 📝
 __Not everything is linear:__ Despite their widespread use and importance, linear systems have inherent limitations. They are only valid for systems that exhibit a linear relationship between inputs and outputs, which is often not the case for many real-world systems. Nonlinear systems, characterized by complex and unpredictable behavior, pose significant challenges for scientists and engineers. For an introduction, you can read the book _Chaos: Making a New Science_ by James Gleick.
