@@ -112,7 +112,7 @@ So, just by having a representation of an LTI system, in the form of a different
 
 * [Example of Frequency Response of First Order Systems](frequency_response_first_order/readme.md) ✏️
 
-## Characteristics of Frequency Response
+## Characteristics of Frequency Response 🔬
 Below, is the plot that shows the magnitude and phase of the frequency response for the system we examined in the previous example. The horizontal axis represents the angular frequency $\omega$, while the vertical axis shows the magnitude (red) of response in _decibels (dB)_ and the phase in radians:
 
 <p align="center"><img src="https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/fr1.jpg?raw=true" width="500px" /> </p>
@@ -125,7 +125,7 @@ As you can see in this plot, there are three important characteristics about the
 
 * __Anti-symmetry of Phase__ related to π: The phase of the frequency response exhibits an anti-symmetry around π. That is, if you reflect the phase plot about the vertical line at π, you get the negative of the original plot. [Why anti-symmetric?🐇🕳](phase_anti_symmetry/readme.md) 
 
-## Units of Frequency
+## Units of Frequency 📏
 Above, we examined frequency response characteristics, such as _2π periodicity_ and _π symmetry of magnitude_. However, you might be wondering how these properties correspond to the unit of frequency that we're familiar with in the real world, which is _Hertz (Hz)_.
 
 In signal processing and communication systems, the __unit of frequency is typically the same as the sampling frequency__, which is the rate at which a continuous-time signal is sampled and converted into a discrete-time signal. For example, if the sampling frequency is 10 kHz, then it means that 10,000 samples are taken per second. 
