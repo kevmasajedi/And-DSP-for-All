@@ -138,6 +138,14 @@ If you decide to use _radians per second_ ($\omega$) as the unit of frequency do
 
 In signal processing and communication systems, it is common to represent frequencies relative to the sampling frequency, rather than using absolute frequencies measured in Hz. This is because it allows for a more convenient representation of the frequency response, and makes it easier to compare and analyze different signals and systems. To represent frequencies relative to the sampling frequency, we use a _normalized frequency_ scale, which is defined as the ratio of the actual frequency to the sampling frequency. For example, if the actual frequency is 2 kHz and the sampling frequency is 10 kHz, then the normalized frequency is 2/10 = 0.2.
 
+# Aliasing 🪃
+Aliasing is a phenomenon that occurs when a continuous-time signal is sampled at a rate that is too low, resulting in high frequency components being shifted into lower frequencies. This can cause distortion and loss of information in the sampled signal. 
+
+To prevent aliasing, the Nyquist theorem states that the sampling rate must be at least twice the highest frequency component in the signal. This means that the highest frequency component in the signal, known as the Nyquist frequency, is equal to half of the sampling rate. For example, if the sampling rate is 10 kHz, the Nyquist frequency is 5 kHz.
+
+If a signal is sampled at a rate that is lower than the Nyquist rate, aliasing can occur. For example, if a signal contains a component at 7 kHz and is sampled at a rate of 10 kHz, the component at 7 kHz will appear as a component at 3 kHz (the difference between the sampling rate and the component frequency). This can cause distortion and loss of information in the signal.
+
+An intuitive example of aliasing can be seen in a car wheel appearing to spin backwards on a film when the wheel rotates faster than the frame rate of the camera. This is because the wheel appears to rotate slower than it actually is due to the limited sampling rate of the camera. Similarly, high frequency components in a signal can appear to be shifted into lower frequencies due to the limited sampling rate of the signal.
 
 ## Footnotes 📝
 __Not everything is linear:__ Despite their widespread use and importance, linear systems have inherent limitations. They are only valid for systems that exhibit a linear relationship between inputs and outputs, which is often not the case for many real-world systems. Nonlinear systems, characterized by complex and unpredictable behavior, pose significant challenges for scientists and engineers. For an introduction, you can read the book _Chaos: Making a New Science_ by James Gleick.
