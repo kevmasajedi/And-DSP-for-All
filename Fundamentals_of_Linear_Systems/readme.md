@@ -136,9 +136,7 @@ The π symmetry of the magnitude of the frequency response and π anti-symmetry 
 
 If you decide to use _radians per second_ ($\omega$) as the unit of frequency domain, you'll need to multiply all values by 2π, as $\omega = 2 \pi f$. So, for our example, the frequency response would be periodic around 20,000π and symmetric in magnitude (and anti-symmetric in phase) around 10000π. 
 
-In signal processing and communication systems, it is common to represent frequencies relative to the sampling frequency, rather than using absolute frequencies measured in Hz. This is because it allows for a more convenient representation of the frequency response, and makes it easier to compare and analyze different signals and systems.
-
-To represent frequencies relative to the sampling frequency, we use a _normalized frequency_ scale, which is defined as the ratio of the actual frequency to the sampling frequency. For example, if the actual frequency is 2 kHz and the sampling frequency is 10 kHz, then the normalized frequency is 2/10 = 0.2.
+In signal processing and communication systems, it is common to represent frequencies relative to the sampling frequency, rather than using absolute frequencies measured in Hz. This is because it allows for a more convenient representation of the frequency response, and makes it easier to compare and analyze different signals and systems. To represent frequencies relative to the sampling frequency, we use a _normalized frequency_ scale, which is defined as the ratio of the actual frequency to the sampling frequency. For example, if the actual frequency is 2 kHz and the sampling frequency is 10 kHz, then the normalized frequency is 2/10 = 0.2.
 
 
 ## Footnotes 📝
