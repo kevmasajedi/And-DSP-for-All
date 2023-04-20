@@ -38,6 +38,17 @@ $$ j^2 = -1 $$
 
 $$ j = \sqrt{-1} $$ 
  
-The real part of a complex number $z = a + bj$ is denoted as $Re(z) = a$, and the imaginary part is denoted as $Im(z) = b$. You can think of them like coordinates on a two-dimensional plane, which we call the complex plane. The real part corresponds to horizontal axis and the imaginary part corresponds to vertical axis. 
+The real part of a complex number $z = a + bj$ is denoted as $Re(z) = a$, and the imaginary part is denoted as $Im(z) = b$. You can think of them like coordinates on a two-dimensional plane, which we call the complex plane. The real part $a$ corresponds to horizontal axis and the imaginary part $b$ corresponds to vertical axis. 
 
 <p align="center"><img src="https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/complex_numbers/c1.jpg?raw=true" width="500px" /></p>
+
+### Polar Representation
+Representing complex numbers in _polar coordinates_ makes many calculations, much easier. Instead of the form $ z = a + bj $ you can use the polar form:
+
+$$ z = re^{j\theta} $$
+
+Where:
+
+$$ r = \sqrt{a^2 + b^2} $$
+$$ \theta = tan^{-1}(\frac{b}{a}) $$
+
