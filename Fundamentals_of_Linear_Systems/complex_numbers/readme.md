@@ -70,3 +70,16 @@ $$ Im(z) = \frac{z-z*}{2j} $$
 Another useful property is that the product of a complex number and its conjugate yields the square of the magnitude:
 
 $$ zz* = |z|^2 $$
+
+### Basic Units as Polar Coordinates:
+The most practical takeaway in the topic of complex numbers is that $re^{j\theta}$ just represents a point at a distance $r$ from the origin and at angle $\theta$ with the horizontal axis. For example, the number 1 is at a unit distance from origin and has an angle of 0. Since the unit is radian, if you add this angle to any multiple of $2\pi$, it still represents the same thing. So:
+
+$$ 1 = e^{j 2\pi n} $$
+
+By a similar line of thought:
+
+$$ -1 = e^{j (\pi + 2\pi n)} $$
+
+$$ j = e^{j (\frac{\pi}{2} + 2\pi n)} $$
+
+$$ -j = e^{j (-\frac{\pi}{2} + 2\pi n)}
