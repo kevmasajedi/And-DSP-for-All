@@ -21,7 +21,6 @@ In fact, some early accounts suggest that the ancient Greeks saw zero as a kind 
 So you see, even concepts that seem simple and straightforward to us today, like negative numbers and zero, have faced denial and opposition. And that brings us to _complex numbers:_
 
 ## Evolution (and Denial) of Complex Numbers
-
 For many centuries, mathematicians were skeptical of the idea of complex numbers, which include both real and imaginary parts. In fact, the term "imaginary" was originally intended as a derogatory term, reflecting the belief that these numbers were somehow less significant or less real than ordinary numbers.
 
 Despite this skepticism, however, some mathematicians continued to explore the properties of imaginary numbers.In the 16th century, the Italian mathematician Gerolamo Cardano was one of the first to recognize that certain equations, such as $x^2 + 1 = 0$, had no solutions in the real number system. Cardano introduced the concept of imaginary numbers, which he referred to as "fictitious" or "impossible" numbers. He recognized that these numbers could be used as a tool to find real solutions to certain equations that were previously thought to be unsolvable. However, Cardano and other mathematicians of his time still viewed imaginary numbers with suspicion.
@@ -31,3 +30,12 @@ In the 17th century, the mathematician John Wallis suggested that imaginary numb
 While Wallis's ideas about complex numbers were initially met with skepticism, they paved the way for a new understanding of these numbers. One of the most important breakthroughs in this area came in the late 18th and early 19th centuries, when the mathematician Carl Friedrich Gauss began to investigate the properties of complex numbers in more detail. Gauss was particularly instrumental in advancing our understanding of complex numbers. He developed what is now known as the fundamental theorem of algebra, which states that every polynomial equation has at least one complex root. This theorem was a major breakthrough in the study of complex numbers, and it helped to establish them as a legitimate and important area of mathematics.
 
 In fact, the concept of complex numbers eventually became so important that mathematicians began to view them as just as fundamental as the real numbers that we use every day. Today, complex numbers are an essential tool for understanding everything from the behavior of waves to the structure of the universe itself, and they continue to play a crucial role in the ongoing development of mathematics and science.
+
+## Mathematical Definition
+ In mathematics, a complex number is defined as a number of the form $a + bj$, where a and b are real numbers and $j$ is an imaginary unit, satisfying the equations:
+
+$$ j^2 = -1 $$
+
+$$ j = \sqrt{-1} $$ 
+ 
+The real part of a complex number $a + bj$ is denoted as $Re(a + bj) = a$, and the imaginary part is denoted as $Im(a + bj) = b$.
