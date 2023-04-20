@@ -38,4 +38,6 @@ $$ j^2 = -1 $$
 
 $$ j = \sqrt{-1} $$ 
  
-The real part of a complex number $a + bj$ is denoted as $Re(a + bj) = a$, and the imaginary part is denoted as $Im(a + bj) = b$.
+The real part of a complex number $z = a + bj$ is denoted as $Re(z) = a$, and the imaginary part is denoted as $Im(z) = b$. You can think of them like coordinates on a two-dimensional plane, which we call the complex plane. The real part corresponds to horizontal axis and the imaginary part corresponds to vertical axis. 
+
+<p align="center"><img src="https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems /complex_numbers/c1.jpg?raw=true" width="500px" /></p>
