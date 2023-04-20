@@ -82,4 +82,4 @@ $$ -1 = e^{j (\pi + 2\pi n)} $$
 
 $$ j = e^{j (\frac{\pi}{2} + 2\pi n)} $$
 
-$$ -j = e^{j (-\frac{\pi}{2} + 2\pi n)}
+$$ -j = e^{j (-\frac{\pi}{2} + 2\pi n)} $$
