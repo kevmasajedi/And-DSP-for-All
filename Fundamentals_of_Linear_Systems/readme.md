@@ -15,6 +15,9 @@ Below, are the modules that provide deeper insights on the terms mentioned above
 * [Impulse Response](impulse_response/readme.md) 🔨
 * [Convolution](convolution/readme.md) ✳️
 
+Also, working your way through this rabbit-hole, might save you from many troubles:
+* [Complex Numbers](complex_numbers/readme.md) 🐇🕳️
+
 ## An Intuitive Example 🪄
 Now that you have worked your way through the above definitions, It's the time for an intuitive example to show how these properties actually fit together. Suppose we have a close to ideal _impulse_ like this:
 
