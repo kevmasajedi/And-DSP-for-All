@@ -50,5 +50,6 @@ $$ z = re^{j\theta} $$
 Where:
 
 $$ r = \sqrt{a^2 + b^2} $$
+
 $$ \theta = tan^{-1}(\frac{b}{a}) $$
 
