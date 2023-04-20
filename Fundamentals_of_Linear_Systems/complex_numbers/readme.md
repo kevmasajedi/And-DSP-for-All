@@ -31,7 +31,7 @@ While Wallis's ideas about complex numbers were initially met with skepticism, t
 
 In fact, the concept of complex numbers eventually became so important that mathematicians began to view them as just as fundamental as the real numbers that we use every day. Today, complex numbers are an essential tool for understanding everything from the behavior of waves to the structure of the universe itself, and they continue to play a crucial role in the ongoing development of mathematics and science.
 
-## Mathematical Definition
+## Mathematical Definitions
  In mathematics, a complex number is defined as a number of the form $a + bj$, where a and b are real numbers and $j$ is an imaginary unit, satisfying the equations:
 
 $$ j^2 = -1 $$
@@ -42,14 +42,17 @@ The real part of a complex number $z = a + bj$ is denoted as $Re(z) = a$, and th
 
 <p align="center"><img src="https://github.com/kevmasajedi/And-DSP-for-All/blob/main/Fundamentals_of_Linear_Systems/complex_numbers/c1.jpg?raw=true" width="500px" /></p>
 
-### Polar Representation
+### Polar Representation:
 Representing complex numbers in _polar coordinates_ makes many calculations, much easier. Instead of the form $ z = a + bj $ you can use the polar form:
 
 $$ z = re^{j\theta} $$
 
 Where:
 
-$$ r = \sqrt{a^2 + b^2} $$
+$$ |z| = r = \sqrt{a^2 + b^2} $$
 
-$$ \theta = tan^{-1}(\frac{b}{a}) $$
+$$ ∠z = \theta = tan^{-1}(\frac{b}{a}) $$
 
+You might wonder what all this means. Well, the polar representation of a number is a way of expressing it in terms of its __magnitude__ and __angle__. $r$ is the magnitude which is found using Pythagorean theorem. and $\theta$ is the angle which is found using the inverse tangent function, _in radians_. It is also common to show the magnitude as $|z|$ and angle as $∠z$:
+
+$$ z = |z| e^{j∠z} $$
