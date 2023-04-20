@@ -56,3 +56,8 @@ $$ ∠z = \theta = tan^{-1}(\frac{b}{a}) $$
 You might wonder what all this means. Well, the polar representation of a number is a way of expressing it in terms of its __magnitude__ and __angle__. $r$ is the magnitude which is found using Pythagorean theorem. and $\theta$ is the angle which is found using the inverse tangent function, _in radians_. It is also common to show the magnitude as $|z|$ and angle as $∠z$:
 
 $$ z = |z| e^{j∠z} $$
+
+### Complex Conjugate:
+A _conjugate_ of the complex number is defined as z*. It is a mirror image of z about the horizontal axis. As you can see the relationship in the earlier plot ($z'$ (blue point) is the conjugate). To find the conjugate of any number, we only need to replace $j$ with $-j$:
+
+$$ z* = a - bj = re^{-j\theta} = |z|e^{-j∠z} $$
