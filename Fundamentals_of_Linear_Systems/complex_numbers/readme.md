@@ -57,7 +57,16 @@ You might wonder what all this means. Well, the polar representation of a number
 
 $$ z = |z| e^{j∠z} $$
 
-### Complex Conjugate:
-A _conjugate_ of the complex number is defined as z*. It is a mirror image of z about the horizontal axis. As you can see the relationship in the earlier plot ($z'$ (blue point) is the conjugate). To find the conjugate of any number, we only need to replace $j$ with $-j$:
+### Complex Conjugation:
+A _conjugate_ of the complex number is defined as z*. It is a mirror image of z about the horizontal axis. As you can see the relationship in the earlier plot (_the blue point_ $z'$ is the conjugate). To find the conjugate of any number, we only need to replace $j$ with $-j$:
 
 $$ z* = a - bj = re^{-j\theta} = |z|e^{-j∠z} $$
+
+Complex conjugates hold immense practical value. Finding them is so easy, and they have many useful properties. For example if you're given a complex number in polar form, and want to find its real and imaginary parts, you can use these properties:
+
+$$ Re(z) = \frac{z+z*}{2} $$
+$$ Im(z) = \frac{z-z*}{2j} $$
+
+Another useful property is that the product of a complex number and its conjugate yields the square of the magnitude:
+
+$$ zz* = |z|^2 $$
