@@ -83,3 +83,6 @@ $$ -1 = e^{j (\pi + 2\pi n)} $$
 $$ j = e^{j (\frac{\pi}{2} + 2\pi n)} $$
 
 $$ -j = e^{j (-\frac{\pi}{2} + 2\pi n)} $$
+
+## Complex Number Operations 
+In this section, we're going to use `complexible`. A rust library that is minimal and user-friendly and provides simple and efficient ways to work with complex numbers. To install and get a glimpse of its basic usage, take a look at its [official crate](https://crates.io/crates/complexible).
