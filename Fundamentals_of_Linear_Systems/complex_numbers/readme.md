@@ -86,3 +86,11 @@ $$ -j = e^{j (-\frac{\pi}{2} + 2\pi n)} $$
 
 ## Complex Number Operations 
 In this section, we're going to use `complexible`. A rust library that is minimal and user-friendly and provides simple and efficient ways to work with complex numbers. To install and get a glimpse of its basic usage, take a look at its [official crate](https://crates.io/crates/complexible).
+
+### Cartesian to Polar Form
+```
+let a = ComplexNumber::from_cartesian(2.0, 3.0); 
+a.print_polar(); // 3.6 e ^ 56.3° j
+let b = ComplexNumber::from_cartesian(-2.0, 1.0); 
+b.print_polar(); // 2.236 e ^ 153.4° j
+```
