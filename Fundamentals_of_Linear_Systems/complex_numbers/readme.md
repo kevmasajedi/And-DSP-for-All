@@ -105,3 +105,16 @@ a.print_polar(); // 3.6 e ^ 56.3° j
 let b = ComplexNumber::from_cartesian(-2.0, 1.0); 
 b.print_polar(); // 2.236 e ^ 153.4° j
 ```
+### Calculating _real_ and _imaginary_ Parts
+```
+let angle = Angle::from_radians(PI / 3.0); 
+let z = ComplexNumber::from_polar(2.0, angle); 
+println!("{}", z.real()) ; // 1.00
+println!("{}", z.imag()) ; // 1.73
+```
+### Polar to Cartesian Form
+```
+let angle = Angle::from_radians(PI / 3.0); 
+let z = ComplexNumber::from_polar(2.0, angle); 
+z.print_cartesian() ; // 1.00 + 1.73 J
+```
