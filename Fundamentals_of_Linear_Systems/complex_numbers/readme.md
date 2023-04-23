@@ -129,3 +129,38 @@ print!("{}", z1.add(&z2)); //Cartesian Form (Pretty): 5.0 + 7.0 j
 println!("{}", z1.sub(&z2)); //Cartesian Form (Pretty): 1.0 + 1.0 j  
                              //Polar Form (Pretty): √2 e ^ 45.0° j
 ```
+### Multiplication and Division
+```
+let z1 = ComplexNumber::from_cartesian(3.0, 4.0); 
+let z2 = ComplexNumber::from_cartesian(2.0, 3.0);
+
+print!("{}", z1.mul(&z2)); //Cartesian Form (Pretty): -6.0 + 17.0 j  
+                           //Polar Form (Pretty): √325 e ^ 109.4° j
+
+println!("{}", z1.div(&z2)); //Cartesian Form (Pretty): 1.384 + -0.076 j  
+                             //Polar Form (Pretty): 1.386 e ^ - 3.17° j
+```
+
+### Power and Nth Root
+```
+let z1 = ComplexNumber::from_cartesian(3.0, 4.0);  
+
+print!("{}", z1.pow(3.0)); //Cartesian Form (Pretty): -117.0 + 44.0 j
+                            //Polar Form (Pretty): 125 e ^ 159.4° j
+                            
+print!("{}", z1.nth_root(3.0)); //Cartesian Form (Pretty): 1.6 + 0.5 j
+                                //Polar Form (Pretty): 1.71e ^ 17.7° j
+```
+### Natural, Base-10 and Arbitrary Logarithm
+```
+let z1 = ComplexNumber::from_cartesian(3.0, 4.0);
+
+print!("{}", z1.ln()); //Cartesian Form (Pretty): 1.0 + 1.3 j
+                       //Polar Form (Pretty): 1.60 e ^ 53.1° j
+                       
+print!("{}", z1.log10()); //Cartesian Form (Pretty): 0.4 + 0.6 j
+                       //Polar Form (Pretty): 0.7 e ^ 53.1° j
+                       
+print!("{}", z1.log(5.0)); //Cartesian Form (Pretty): 0.6 + 0.8 j
+                       //Polar Form (Pretty): 1 e ^ 53.1° j
+```
