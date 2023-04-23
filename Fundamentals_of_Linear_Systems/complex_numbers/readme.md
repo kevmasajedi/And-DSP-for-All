@@ -118,3 +118,14 @@ let angle = Angle::from_radians(PI / 3.0);
 let z = ComplexNumber::from_polar(2.0, angle); 
 z.print_cartesian() ; // 1.00 + 1.73 J
 ```
+### Addition and Subtraction
+```
+let z1 = ComplexNumber::from_cartesian(3.0, 4.0); 
+let z2 = ComplexNumber::from_cartesian(2.0, 3.0);
+
+print!("{}", z1.add(&z2)); //Cartesian Form (Pretty): 5.0 + 7.0 j  
+                           //Polar Form (Pretty): √74 e ^ 54.5° j 
+
+println!("{}", z1.sub(&z2)); //Cartesian Form (Pretty): 1.0 + 1.0 j  
+                             //Polar Form (Pretty): √2 e ^ 45.0° j
+```
